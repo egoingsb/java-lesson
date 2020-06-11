@@ -1,5 +1,5 @@
 
-public class Syntax_01_DataType {
+public class DataTypeStringNumber {
 
 	public static void main(String[] args) {
 		

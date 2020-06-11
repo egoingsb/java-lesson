@@ -1,5 +1,5 @@
 
-public class Project_01_Account {
+public class Account {
 
 	public static void main(String[] args) {
 		
