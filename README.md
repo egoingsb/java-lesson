@@ -22,3 +22,5 @@ Hello World를 화면에 출력해봅니다.
 # 데이터 타입 (숫자 & 문자열)
 데이터 타입에 따라서 데이터를 처리하는 방법이 달라지기 때문에 프로그래밍 언어는 데이터 타입을 구분합니다. 그렇기 때문에 우리의 공부 방향은 데이터타입들의 종류를 알고, 종류별로 어떤 처리 방법이 있는지를 알아가는 과정이라고 할 수 있습니다.  
 [Syntax_01_DataType.java](src/Syntax_01_DataType.java)
+
+<img src="keynote/keynote.007.jpeg" width="640">  
