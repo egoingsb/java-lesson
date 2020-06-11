@@ -45,3 +45,33 @@ Hello World를 화면에 출력해봅니다.
 [문법소개 : 파일로 데이터를 출력하는 방법을 소개합니다 : OutputFile.java](src/OutputFile.java)
 
 [프로젝트 : 파일로 출력하는 기능을 추가합니다. : AccountAddOutputFile.java](src/AccountAddOutputFile.java)   
+
+# 직접 컴파일 & 실행
+컴파일과 실행을 직접해봅시다.  
+
+## 목표
+1. java와 javac가 물리적으로 위치하는 디렉토리를 확인합니다.
+2. 어디에서 실행해도 java가 실행되는 이유를 확인합니다. => path 환경변수의 이해
+3. 컴파일을 하고 실행하는 방법을 이해합니다. 
+4. 파라미터를 명령어로 전달하는 방법을 이해합니다. 
+
+### compile
+소스코드가 ~/dev/eclipse-workspace/Java-Lesson-Example/src/에 위치하고 현재 디렉토리로 클래스 파일을 생성하고 싶을 때
+
+```bash
+javac ~/dev/eclipse-workspace/Java-Lesson-Example/src/AccountAddOutputFile.java -d .
+```
+
+### run
+
+AccountAddOutputFile.class가 위치하고 있는 곳에서 AccountAddOutputFile.class를 실행할 때 
+
+```bash
+java AccountAddOutputFile 10000
+```
+
+AccountAddOutputFile.class가 ../temp/AccountAddOutputFile.class에 존재할 때 AccountAddOutputFile.class를 실행하기
+
+```bash
+java -cp ../temp/ AccountAddOutputFile 100000
+``
