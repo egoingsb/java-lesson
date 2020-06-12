@@ -158,4 +158,4 @@ Boolean 데이터 타입은 true, false 로 이루어진 미니 데이터 타입
 
 논리 연산자를 적용해서 회계 시스템을 개선해봅시다. 1만원 보다 수입이 적은 경우는 부가세를 내지 않아도 되야 한다면 어떻게 개선할 수 있을까요? 쉬운 방법은 두개의 프로그램을 만들면 됩니다. 하지만 조건문을 이용하면 하나의 프로그램을 이용해서 해결할 수 있습니다. 
 
-
+[AccountAddConditional.java](src/AccountAddConditional.java) [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddConditional.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddOutputFile.java)
