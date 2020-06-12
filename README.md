@@ -130,3 +130,7 @@ Boolean 데이터 타입은 true, false 로 이루어진 미니 데이터 타입
 블리언이 만들어지는 연산자인 비교연산자에 대해서 알아봅니다. 
 
 [문법 : Comparison](src/Comparison.java)
+
+<img src="keynote/keynote.012.jpeg" width="100%">
+
+<img src="keynote/keynote.013.jpeg" width="100%">
