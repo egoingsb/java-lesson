@@ -128,9 +128,28 @@ Boolean 데이터 타입은 true, false 로 이루어진 미니 데이터 타입
 
 ## 비교 연산자
 블리언이 만들어지는 연산자인 비교연산자에 대해서 알아봅니다. 
+원시 데이터 타입은 ==를 이용해서 비교하고 원시 데이터 타입이 아닌 객체의 경우는 equals를 사용합니다. 
+==는 데이터가 소재하고 있는 주소가 같은지 비교하는 것이고, equals는 객체에 있는 데이터가 실제로 같은지를 비교하는 것입니다.  
 
 [문법 : Comparison](src/Comparison.java)
 
 <img src="keynote/keynote.012.jpeg" width="100%">
 
 <img src="keynote/keynote.013.jpeg" width="100%">
+
+
+## 조건문
+조건에 따라서 다른 순서로 프로그램이 실행되도록 제어하는 것이 조건문입니다. 조건문을 통해서 여러가지 모습을 기능을 가진 하나의 프로그램을 만들 수 있습니다.  
+
+[문법 : Conditional.java](Conditional.java)  
+
+<img src="keynote/keynote.014.jpeg" width="100%">
+
+[프로젝트 : 로그인 앱을 만들어봅시다. LoginApp.java](src/LoginApp.java)
+
+## 논리 연산자 
+논리 연산자는 조건을 결합해서 하나의 조건으로 만드는 연산자로 자연어에서는 '그리고', '또는'에 해당합니다.  
+
+<img src="keynote/keynote.015.jpeg" width="100%">
+
+[문법 : LogicalOperator.java](src/LogicalOperator.java)
