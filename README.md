@@ -159,3 +159,14 @@ Boolean 데이터 타입은 true, false 로 이루어진 미니 데이터 타입
 논리 연산자를 적용해서 회계 시스템을 개선해봅시다. 1만원 보다 수입이 적은 경우는 부가세를 내지 않아도 되야 한다면 어떻게 개선할 수 있을까요? 쉬운 방법은 두개의 프로그램을 만들면 됩니다. 하지만 조건문을 이용하면 하나의 프로그램을 이용해서 해결할 수 있습니다. 
 
 [AccountAddConditional.java](src/AccountAddConditional.java) [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddConditional.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddOutputFile.java)
+
+## 배열
+서로 연관된 복수의 데이터가 있을 때 이 데이터들을 효과적으로 관리하기 위한 정리정돈의 도구가 배열과 콜렉션 프래임워크 입니다. 
+
+[문법 : ArrayApp.java](src/ArrayApp.java)
+
+배열은 배열 자체로 쓰이기 보다는 반복문과 함께 사용되는 경우가 많습니다. 
+
+## 반복문
+반복적인 작업을 처리하는 기능입니다. 블리언과 비교연산자가 기반이 되고, 배열과 콜렉션 프래임워크와 단짝으로 사용됩니다. 
+
