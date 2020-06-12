@@ -51,7 +51,7 @@ Hello World를 화면에 출력해봅니다.
 
 [문법 : Variable.java](src/Variable.java) 
 
-[프로젝트 : AccountAddVariable.java](src/AccountAddVariable.java) <a href="https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccount.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddVariable.java" target="_blank">비교</a>  
+[프로젝트 : AccountAddVariable.java](src/AccountAddVariable.java) | <a href="https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccount.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddVariable.java" target="_blank">비교</a>  
 <img src="keynote/keynote.008.jpeg" width="100%">
 
 ## 프로그램, 프로그래밍, 프로그래머
@@ -64,11 +64,11 @@ Hello World를 화면에 출력해봅니다.
 
 [문법 : InputOutput.java](src/InputOutput.java)  
 
-[프로젝트 : AccountAddInputOutput.java](src/AccountAddInputOutput.java)
+[프로젝트 : AccountAddInputOutput.java](src/AccountAddInputOutput.java) | [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddVariable.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddInputOutput.java)
 
 [문법 : 파일로 데이터를 출력하는 방법을 소개합니다 : OutputFile.java](src/OutputFile.java)
 
-[프로젝트 : 파일로 출력하는 기능을 추가합니다. : AccountAddOutputFile.java](src/AccountAddOutputFile.java)   
+[프로젝트 : 파일로 출력하는 기능을 추가합니다. : AccountAddOutputFile.java](src/AccountAddOutputFile.java) | [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddInputOutput.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddOutputFile.java)
 
 <img src="keynote/keynote.010.jpeg" width="100%">
 
@@ -154,5 +154,5 @@ Boolean 데이터 타입은 true, false 로 이루어진 미니 데이터 타입
 
 [문법 : LogicalOperator.java](src/LogicalOperator.java)
 
-[프로젝트 : 로그인 앱에 논리 연산자를 추가해서 코드를 간결하게 만들어보기 : LoginAppAddLogical.java](src/LoginAppAddLogical.java)
+[프로젝트 : 로그인 앱에 논리 연산자를 추가해서 코드를 간결하게 만들어보기 : LoginAppAddLogical.java](src/LoginAppAddLogical.java) | [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FLoginApp.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FLoginAppAddLogical.java)
 
