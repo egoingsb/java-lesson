@@ -51,7 +51,7 @@ Hello World를 화면에 출력해봅니다.
 
 [문법 : Variable.java](src/Variable.java) 
 
-[프로젝트 : AccountAddVariable.java](src/AccountAddVariable.java) [⚖️](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccount.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddVariable.java)  
+[프로젝트 : AccountAddVariable.java](src/AccountAddVariable.java) <a href="https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccount.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddVariable.java" target="_blank">비교</a>  
 <img src="keynote/keynote.008.jpeg" width="100%">
 
 ## 프로그램, 프로그래밍, 프로그래머
