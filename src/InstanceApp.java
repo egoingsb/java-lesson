@@ -97,7 +97,7 @@ public class InstanceApp {
 		System.out.println(fourTwo.sum());
 		System.out.println(fourTwo.minus());
 		
-		// 이런 맥락에서 Calculator4 가 오리지널이 되고 twoOne, fourTwo는 오리지널을 분신술로 복제한 아바타들이라고 할 수 있습니다. 
+		// 이런 맥락에서 Calculator4 가 오리지널이 되고 twoOne, fourTwo는 오리지널을 분신술로 복제한 아바타들이라고 할 수 있습니다. 오리지널을 class, 아바타들을 instance라고 생각해주세요.  
 		
 	}
 
