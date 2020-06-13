@@ -189,4 +189,6 @@ public static void main(String[] args) {}
 
 [문법 : 메소드가 없다면 어떤 어려움이 생기는가? : withoutMethodApp.java](src/withoutMethodApp.java)  
 
-[문법 : 메소드가 있다면 무엇이 좋은가? : withMethodApp.java](src/withMethodApp.java) |  [비교]()
+[문법 : 메소드가 있다면 무엇이 좋은가? : withMethodApp.java](src/withMethodApp.java) |  [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FwithMethodApp.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FwithoutMethodApp.java)
+
+
