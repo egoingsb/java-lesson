@@ -230,7 +230,7 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 
 [문법 : InstanceApp.java](src/InstanceApp.java)
 
-[프로젝트 : 동업자에 대한 상세한 정보를 관리하는데 인스턴스 기능 응용 : AccountAddInstance.java](src/AccountAddInstance.java)
+[프로젝트 : 동업자에 대한 상세한 정보를 관리하는데 인스턴스 기능 응용 : AccountAddInstance.java](src/AccountAddInstance.java) | [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddInstance.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddShareClass.java)
 
 ## static 
 메소드나 변수에 static 키워드가 붙으면 클래스 소속이라는 뜻입니다. static이 없으면 인스턴스의 속성이라는 뜻입니다. 클래스 소속은 클래스와 인스턴스를 통해서 접근이 가능합니다. 이런 특성을 이용해서 애플리케이션 전역에서 이용할 수 있는 전역변수를 쉽게 만들 수 있습니다. 
@@ -242,3 +242,5 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 생성자는 인스턴스가 생성될 때 초기화해야 하는 코드가 실행되도록 하는 특수한 메소드입니다. 클래스와 같은 이름을 사용합니다. 
 
 [문법 : 생성자의 필요 이유와 형식 : ConstructorApp.java](src/ConstructorApp.java)
+
+[프로젝트 : Person에 성성자 도입 : AccountAddConstructor.java](src/AccountAddConstructor.java)| [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddConstructor.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddInstance.java)
