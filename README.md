@@ -217,16 +217,6 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 
 [프로젝트 : 클래스를 도입해봅시다. : AccountAddClass.java](src/AccountAddClass.java)
 
-## instance
-클래스로 정리 정돈을 하다보면 클래스를 복제하고 싶다는 생각이 들기 시작합니다. 클래스를 복제해서 서로 다른 상태를 가지고 있지만, 모두가 같은 기능을 가진 것을 만들면 이것이 인스턴스입니다. 모든 입문 개발자들의 공통된 위기의 순간인 객체지향의 세계에 오신 것을 환영합니다. 
-
-[문법 : InstanceApp.java](src/InstanceApp.java)
-
-## static 
-메소드나 변수에 static 키워드가 붙으면 클래스 소속이라는 뜻입니다. static이 없으면 인스턴스의 속성이라는 뜻입니다. 클래스 소속은 클래스와 인스턴스를 통해서 접근이 가능합니다. 이런 특성을 이용해서 애플리케이션 전역에서 이용할 수 있는 전역변수를 쉽게 만들 수 있습니다. 
-
-<img src="keynote/keynote.019.jpeg" width="100%">
-
 ## 파일 쪼개기
 
 같은 디렉토리에 같은 이름의 파일이 존재할 수 없습니다. 소스코드 파일에 클래스를 코딩하면 클래스는 각각 독립된 클래스 파일로 저장됩니다. 그래서 같은 이름의 클래스는 소스코드가 달라도 공존 할 수 없습니다. 소스코드 파일과 클래스 파일의 관계를 알아보고 클래스를 재사용하기 위한 방법에 대해서 생각해보겠습니다. 
@@ -235,6 +225,20 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 
 [프로젝트 : 다른 코드 파일에 존재하는 Print 클래스를 사용하는 예제 : AccountAddShareClass.java](src/AccountAddShareClass.java) | [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddShareClass.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddClass.java)
 
+## instance
+클래스로 정리 정돈을 하다보면 클래스를 복제하고 싶다는 생각이 들기 시작합니다. 클래스를 복제해서 서로 다른 상태를 가지고 있지만, 모두가 같은 기능을 가진 것을 만들면 이것이 인스턴스입니다. 모든 입문 개발자들의 공통된 위기의 순간인 객체지향의 세계에 오신 것을 환영합니다. 
+
+[문법 : InstanceApp.java](src/InstanceApp.java)
+
+[프로젝트 : 동업자에 대한 상세한 정보를 관리하는데 인스턴스 기능 응용 : AccountAddInstance.java](src/AccountAddInstance.java)
+
+## static 
+메소드나 변수에 static 키워드가 붙으면 클래스 소속이라는 뜻입니다. static이 없으면 인스턴스의 속성이라는 뜻입니다. 클래스 소속은 클래스와 인스턴스를 통해서 접근이 가능합니다. 이런 특성을 이용해서 애플리케이션 전역에서 이용할 수 있는 전역변수를 쉽게 만들 수 있습니다. 
+
+<img src="keynote/keynote.019.jpeg" width="100%">
+
+
 ## 생성자
 생성자는 인스턴스가 생성될 때 초기화해야 하는 코드가 실행되도록 하는 특수한 메소드입니다. 클래스와 같은 이름을 사용합니다. 
 
+[문법 : 생성자의 필요 이유와 형식 : ConstructorApp.java](src/ConstructorApp.java)
