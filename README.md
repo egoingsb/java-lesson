@@ -161,7 +161,9 @@ Boolean 데이터 타입은 true, false 로 이루어진 미니 데이터 타입
 [AccountAddConditional.java](src/AccountAddConditional.java) | [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddConditional.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddOutputFile.java)
 
 ## 배열
-서로 연관된 복수의 데이터가 있을 때 이 데이터들을 효과적으로 관리하기 위한 정리정돈의 도구가 배열과 콜렉션 프래임워크 입니다. 
+서로 연관된 복수의 데이터가 있을 때 이 데이터들을 모아서 이름을 붙인 정리 정돈의 상자가 배열이라고 할 수 있습니다. 이런 이미지를 떠올려보시면 좋을 것 같습니다. 
+
+<img src="keynote/keynote.017.jpeg" width="100%">
 
 [문법 : ArrayApp.java](src/ArrayApp.java)
 
@@ -200,3 +202,17 @@ public static void main(String[] args) {}
 <img src="keynote/keynote.018.jpeg" width="100%">
 
 [프로젝트 : 메소드를 도입 : AccountAddMethod.java](src/AccountAddMethod.java)
+
+# 객체지향 프로그래밍
+Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로그램을 만들어 가는 것을 의미합니다. 객체지향 프로그래밍을 이해하는 열쇠는 객체를 이매하는 것입니다. 객체를 한마디로 정의하기는 어렵지만 이렇게 이야기 할 수 있을 것 같습니다.   
+
+서로 연관된 메소드와 변수를 모아서 이름을 붙인 것. 배열과 메소드 처럼 객체도 정리 정돈의 도구입니다. 
+
+<img src="keynote/keynote.017.jpeg" width="100%">
+
+## class
+일단은 클래스가 객체라고 생각합시다. 
+
+[문법 : ClassApp.java](src/ClassApp.java)
+
+[프로젝트 : 클래스를 도입해봅시다. : AccountAddClass.java](src/AccountAddClass.java)
