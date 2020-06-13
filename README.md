@@ -173,3 +173,20 @@ Boolean 데이터 타입은 true, false 로 이루어진 미니 데이터 타입
 [문법 : LoopApp.java](src/LoopApp.java)
 
 [프로젝트 : 반복문의 도입으로 동업자를 관리 : AccountAddLoop.java](src/AccountAddLoop.java) | [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddLoop.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddConditional.java)
+
+# method
+
+함수(function), procedure, method 는 모두 서로 연관된 코드를 그룹핑해서 이름을 붙여서 복잡해진 코드를 정리 정돈 하는 도구입니다. 아래 그림과 같은 수납상자를 떠올려보시면 좋을 것 같습니다. 변수가 데이터에 이름을 붙인 것이라면, 메소드는 코드에 이름을 붙인 것이라고 할 수 있습니다. 
+
+
+<img src="keynote/keynote.017.jpeg" width="100%">
+
+실행하고자 하는 코드를 위치시키는 main이 사실은 메소드였습니다.
+
+```java
+public static void main(String[] args) {}
+```
+
+[문법 : 메소드가 없다면 어떤 어려움이 생기는가? : withoutMethodApp.java](src/withoutMethodApp.java)  
+
+[문법 : 메소드가 있다면 무엇이 좋은가? : withMethodApp.java](src/withMethodApp.java) |  [비교]()

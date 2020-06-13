@@ -15,7 +15,7 @@ public class ArrayApp {
 		
 		// 이를 구원해줄 도구가 배열입니다.
 		// 두가지 방법으로 만들 수 있습니다. 
-		int[] scores1 = {10, 20, 30};
+		int[] members = {10, 20, 30};
 		
 		int[] scores2 = new int[3];
 		scores2[0] = 10;
