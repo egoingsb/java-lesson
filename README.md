@@ -233,14 +233,7 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 
 [문법 : Print 클래스가 AccountAddClass.java에 위치하고 있지만 별도의 Print.class 파일로 생성 된다는 점을 확인해보세요. : AccountAddClass.java](src/AccountAddClass.java)  
 
-[프로젝트 : 다른 코드 파일에 존재하는 Print 클래스를 사용하는 예제 : AccountAddShareClass.java](src/AccountAddShareClass.java)
-
-
-서로 다른 소스코드에 같은 이름의 클래스가 존재할 수 없는 것입니다. 다른 프로젝트에서도 사용할 수 있는 클래스의 경우 별도의 소스코드에서 작성하는 것이 좋습니다. [AccountAddClass.java](src/AccountAddClass.java)의 [AccountAddInstance.java
-
-
-지금까지 하나의 소스코드 파일에 여러개의 클래스를 담아왔습니다. 같은 소스코드에 클래스를 담아도 클래스 파일은 별도로 생성됩니다. 그래서 같은 이름의 클래스가 서로 다른 이름의 소스코드 파일에 공존할 수 없습니다.  같은 프로젝트 안에서 공존할 수 없는 것입니다.  
-클래스가 1억개가 된다면 하나의 파일에 담는 것이 효율적이지 않을 것입니다. 
+[프로젝트 : 다른 코드 파일에 존재하는 Print 클래스를 사용하는 예제 : AccountAddShareClass.java](src/AccountAddShareClass.java) | [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddShareClass.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddClass.java)
 
 ## 생성자
 생성자는 인스턴스가 생성될 때 초기화해야 하는 코드가 실행되도록 하는 특수한 메소드입니다. 클래스와 같은 이름을 사용합니다. 
