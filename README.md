@@ -213,6 +213,11 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 ## class
 일단은 클래스가 객체라고 생각합시다. 
 
-[문법 : ClassApp.java](src/ClassApp.java)
+[문법 : ClassApp.java](src/ClassApp.java) | [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddClass.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddMethod.java)
 
 [프로젝트 : 클래스를 도입해봅시다. : AccountAddClass.java](src/AccountAddClass.java)
+
+## instance
+클래스로 정리 정돈을 하다보면 클래스를 복제하고 싶다는 생각이 들기 시작합니다. 클래스를 복제해서 서로 다른 상태를 가지고 있지만, 모두가 같은 기능을 가진 것을 만들면 이것이 인스턴스입니다. 모든 입문 개발자들의 공통된 위기의 순간인 객체지향의 세계에 오신 것을 환영합니다. 
+
+[문법 : InstanceApp.java](src/InstanceApp.java)
