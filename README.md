@@ -243,4 +243,6 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 
 [문법 : 생성자의 필요 이유와 형식 : ConstructorApp.java](src/ConstructorApp.java)
 
-[프로젝트 : Person에 성성자 도입 : AccountAddConstructor.java](src/AccountAddConstructor.java)| [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddConstructor.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddInstance.java)
+[프로젝트 : Person에 성성자 도입 : AccountAddConstructor.java](src/AccountAddConstructor.java) | [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddConstructor.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddInstance.java)
+
+[패키지](PACKAGE.md)

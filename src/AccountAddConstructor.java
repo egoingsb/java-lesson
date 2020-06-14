@@ -1,4 +1,5 @@
 class Person2 {
+	// 생성자를 도입함으로서 객체가 생성될 때 필수적으로 필요한 사항에 대해서 반드시 설정을 하도록 강제할 수 있습니다. 
 	Person2(int id, String name, double profitRate){
 		this.id = id;
 		this.name = name;
