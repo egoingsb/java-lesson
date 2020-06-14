@@ -14,6 +14,8 @@ Hello World를 화면에 출력해봅니다.
 실행과 컴파일의 과정을 이해합니다.  
 <img src="keynote/keynote.005.jpeg" width="100%">  
 
+<img src="keynote/keynote.020.jpeg" width="100%">
+
 ## 자바로 할 수 있는 일들
 
 ### 데스크탑 앱
@@ -108,11 +110,32 @@ java -cp ../temp/ AccountAddOutputFile 100000
 
 ## 문서 찾아보기
 
+### API
+
 Application의 개념에 대해서 알아봅니다. API의 개념을 이해하고 공식 api 문서를 보는 법을 익힙니다.  
 
 Math의 기능을 찾는 검색어 : java api Math  
 
 <img src="keynote/keynote.011.jpeg" width="100%">
+
+### 패키지
+
+기능마다 각자의 이름을 가지고 있습니다. 예를들어 수학과 관련된 기능은 Math라는 이름의 클래스에 담겨 있습니다. Math 라는 이름의 java.lang   .   Math   .   floor(double a)java.lang   .   Math   .   floor(double a)org.apache.commons.lang.StringUtils
+
+출처: https://kmj1107.tistory.com/entry/Java-StringUtils [토순이네집]org.apache.commons.lang.StringUtils
+
+출처: https://kmj1107.tistory.com/entry/Java-StringUtils [토순이네집]org.apache.commons.lang.StringUtils
+
+출처: https://kmj1107.tistory.com/entry/Java-StringUtils [토순이네집]org.apache.commons.lang.StringUtils
+
+출처: https://kmj1107.tistory.com/entry/Java-StringUtils [토순이네집]자바로 앱을 개발할 때 모든 것을 직접 만든다면 너무 힘든 일이 될 것입니다. 그래서 자바는 기본적으로 프로그래머들이 필요로 할만한 기능들을 
+자바로 앱을 개발할 때 모든 것을 직접 만든다면 너무 힘든 일이 될 것입니다. 그래서 자바는 기본적으로 프로그래머들이 필요로 할만한 기능들을 
+자바로 앱을 개발할 때 모든 것을 직접 만든다면 너무 힘든 일이 될 것입니다. 그래서 자바는 기본적으로 프로그래머들이 필요로 할만한 기능들을 
+자바로 앱을 개발할 때 모든 것을 직접 만든다면 너무 힘든 일이 될 것입니다. 그래서 자바는 기본적으로 프로그래머들이 필요로 할만한 기능들을 
+자바로 앱을 개발할 때 모든 것을 직접 만든다면 너무 힘든 일이 될 것입니다. 그래서 자바는 기본적으로 프로그래머들이 필요로 할만한 기능들을 
+클래스가 이 세상에 단 하나만 있어야 한다면 안되겠죠? 이름의 충돌을 막고, 서로 연된된 클래스들을 정리 정돈하기 위해서 만들어진 것이 패키지입니다. 
+
+
 
 ## 혁명의 끝 혁신의 시작
 지금까지 배운 것이 혁명적인 것이고, 혁명적인 것은 그것만으로도 할 수 있는 것이 정말 많으면서, 앞으로 나오게 될 혁신적인 것들은 결국 혁명적인 것을 보완하기 위한 것이라는 점을 생각해봅니다. 
@@ -245,4 +268,32 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 
 [프로젝트 : Person에 성성자 도입 : AccountAddConstructor.java](src/AccountAddConstructor.java) | [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddConstructor.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddInstance.java)
 
-[패키지](PACKAGE.md)
+## 패키지
+
+같은 이름의 클래스를 사용할 수 없다는 것은 무척 큰 제약사항입니다. 이것은 디렉토리 없는 파일 시스템과 같은 상황인 것입니다. 특히 전세계적으로 대규모 협업이 일어나는 세계에서 이름이 충돌한다는 것은 심각한 문제입니다. 그래서 등장한 개념이 패키지입니다. 패키지는  서로 연관된 클래스를 그룹핑해서 거기에 이름을 붙인 것입니다. 
+
+패키지를 만들어봅시다. 패키지의 이름은 org.otu 입니다. 
+
+<img src="keynote/keynote.021.jpeg" width="100%">
+
+여기에 Math라는 이름의 패키지를 만들어보겠습니다. 파일 내용은 아래에 있습니다. 
+
+[문법 : Math.java](src/Math.java)
+
+위의 패키지를 사용해보겠습니다. 
+
+[문법 : PackageApp.java](src/PackageApp.java)
+
+만약 패키지의 이름이 너무 길다면 import 문을 이용하면 됩니다. 
+
+[문법 : PackageApp2.java](src/PackageApp2.java)
+
+자바의 기본 라이브러리의 패키중 java.lang은 필수적인 요소를 모아서 제공하는 중요한 패키지입니다. 따라서 패키지의 이름을 적지 않는다면 자바는 우선 같은 패키지 중에 클래스가 있는지 확인해봅니다. 있다면 그것을 사용하고 없다면 java.lang에 있는지 확인합니다.
+
+## 상속
+
+어렵게 객체를 만들었더니 객체에 기능을 더 넣고 싶은 겁니다. 그런데 객체에 기능을 더 넣자니 객체가 기능이 너무 많아지는 것은 또 싫은 겁니다. 이미 고객에게 납품한 객체일수도 있고요. 이런 경우 제일 쉬운 방법은 객체를 복사하는 겁니다만, 이렇게 될 경우 코드의 양도 많아지고, 유지보수하기도 어려워집니다. 가독성도 나빠지고요. 이런 때에 우리를 구원해주는 도구가 상속입니다. 
+
+[문법 : InheritanceApp.java](src/InheritanceApp.java)
+
+[프로젝트 : AccountAddInheritance.java](src/AccountAddInheritance.java)

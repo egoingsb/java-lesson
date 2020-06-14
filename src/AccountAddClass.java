@@ -65,11 +65,11 @@ public class AccountAddClass {
 		return output;
 	}
 
-	private static double get_income(double total, double VAT) {
+	public static double get_income(double total, double VAT) {
 		return total - VAT;
 	}
 
-	private static double get_vat(double total, double VATrate) {
+	public static double get_vat(double total, double VATrate) {
 		return total*VATrate;
 	}
 
