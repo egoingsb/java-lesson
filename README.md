@@ -296,4 +296,12 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 
 [문법 : InheritanceApp.java](src/InheritanceApp.java)
 
-[프로젝트 : AccountAddInheritance.java](src/AccountAddInheritance.java) | [비교](.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddInheritance.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddConstructor.java)
+프로젝트 : [AccountAddConstructor.java](src/AccountAddConstructor.java) ⮕ [AccountAddInheritance.java](src/AccountAddInheritance.java) | [비교](.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddInheritance.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddConstructor.java)
+
+## 인터페이스
+
+질서 없는 자유는 혼돈이고, 질서 정연한 혼돈은 자유라고 이야기하고 싶습니다. 무제한의 자유는 오히려 그 극한의 자유로움이 자유를 구속하곤 합니다. 예를들어보겠습니다. 모든 회사들이 각자의 전기규격에 따라서 전기제품을 만든다면 어떤 일이 생길까요? 지금처럼 마음 놓고 전기 코드를 꼽을 수 없을 것입니다. 사용설명서를 꼼꼼히 읽어보고 불안 불안 연결해야 할 것입니다. 이게 진정한 자유일까요? 이것은 혼돈입니다. 아래는 우리가 매일 보는 돼지코입니다. 여기는 220V만 꼽게 되어 있습니다. 이것은 매우 엄격한 규칙입니다. 만약 저 규칙을 지키지 않는다면 그 회사는 문을 닫아야죠. 감옥에 가야할수도 있습니다. 이것은 자유와 거리가 있어 보이지만, 그렇지 않습니다. 이런 억압 덕분에 제조사들은 220V라는 억압을 지키는 선에서 마음대로 구현을 할 수 있는 것이죠. 이런 사회적인 약속들을 인터페이스라고 합니다. 돼지코라는 인터페이스는 전기를 이용하는 조작 장치이면서 약속이라고 할 수 있습니다. 
+
+<img src="keynote/keynote.022.jpeg" width="100%">
+
+[문법 : InterfaceApp.java](InterfaceApp.java)
