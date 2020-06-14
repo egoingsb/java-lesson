@@ -1,11 +1,11 @@
 // 2. 인터페이스를 만들어봅시다. 이것을 외주업체에게 전달합니다. 
-interface calculable {
+interface Calculable {
 	double sum(double left, double right);  // sum 메소드의 형태를 기술합니다. 
 }
 
 
 // 3. 외주업체는 calculable을 만족시키기 위해서 코딩을 합니다. 인터페이스에 적혀있는 형식을 준수하지 않으면 컴파일 자체가 되지 않기 때문에 조작방법에 대한 커뮤니케이션 실패는 일어날 수가 없습니다. 
-class Calculator10 implements calculable {
+class Calculator10 implements Calculable {
  	public double sum(double left, double right){return left + right;}
 }
 
