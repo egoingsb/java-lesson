@@ -304,4 +304,4 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 
 <img src="keynote/keynote.022.jpeg" width="100%">
 
-[문법 : InterfaceApp.java](InterfaceApp.java)
+[문법 : InterfaceApp.java](src/InterfaceApp.java)
