@@ -296,7 +296,7 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 
 [문법 : InheritanceApp.java](src/InheritanceApp.java)
 
-프로젝트 : [AccountAddConstructor.java](src/AccountAddConstructor.java) ⮕ [AccountAddInheritance.java](src/AccountAddInheritance.java) | [비교](.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddInheritance.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddConstructor.java)
+프로젝트 : [AccountAddConstructor.java](src/AccountAddConstructor.java) ⮕ [AccountAddInheritance.java](src/AccountAddInheritance.java) | [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddInheritance.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddConstructor.java)
 
 ## 인터페이스
 
@@ -306,3 +306,6 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 
 [문법 : InterfaceApp.java](src/InterfaceApp.java)
 
+## 다형성
+
+다형성은 객체지향에서는 가장 난해한 개념입니다. 
