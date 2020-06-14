@@ -296,4 +296,4 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 
 [문법 : InheritanceApp.java](src/InheritanceApp.java)
 
-[프로젝트 : AccountAddInheritance.java](src/AccountAddInheritance.java)
+[프로젝트 : AccountAddInheritance.java](src/AccountAddInheritance.java) | [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddConstructor.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2FAccountAddInheritance%2Fmaster%2Fsrc%2FAccountAddConstructor.java)
