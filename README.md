@@ -123,22 +123,7 @@ Math의 기능을 찾는 검색어 : java api Math
 
 ### 패키지
 
-기능마다 각자의 이름을 가지고 있습니다. 예를들어 수학과 관련된 기능은 Math라는 이름의 클래스에 담겨 있습니다. Math 라는 이름의 java.lang   .   Math   .   floor(double a)java.lang   .   Math   .   floor(double a)org.apache.commons.lang.StringUtils
-
-출처: https://kmj1107.tistory.com/entry/Java-StringUtils [토순이네집]org.apache.commons.lang.StringUtils
-
-출처: https://kmj1107.tistory.com/entry/Java-StringUtils [토순이네집]org.apache.commons.lang.StringUtils
-
-출처: https://kmj1107.tistory.com/entry/Java-StringUtils [토순이네집]org.apache.commons.lang.StringUtils
-
-출처: https://kmj1107.tistory.com/entry/Java-StringUtils [토순이네집]자바로 앱을 개발할 때 모든 것을 직접 만든다면 너무 힘든 일이 될 것입니다. 그래서 자바는 기본적으로 프로그래머들이 필요로 할만한 기능들을 
-자바로 앱을 개발할 때 모든 것을 직접 만든다면 너무 힘든 일이 될 것입니다. 그래서 자바는 기본적으로 프로그래머들이 필요로 할만한 기능들을 
-자바로 앱을 개발할 때 모든 것을 직접 만든다면 너무 힘든 일이 될 것입니다. 그래서 자바는 기본적으로 프로그래머들이 필요로 할만한 기능들을 
-자바로 앱을 개발할 때 모든 것을 직접 만든다면 너무 힘든 일이 될 것입니다. 그래서 자바는 기본적으로 프로그래머들이 필요로 할만한 기능들을 
-자바로 앱을 개발할 때 모든 것을 직접 만든다면 너무 힘든 일이 될 것입니다. 그래서 자바는 기본적으로 프로그래머들이 필요로 할만한 기능들을 
-클래스가 이 세상에 단 하나만 있어야 한다면 안되겠죠? 이름의 충돌을 막고, 서로 연된된 클래스들을 정리 정돈하기 위해서 만들어진 것이 패키지입니다. 
-
-
+기능마다 각자의 이름을 가지고 있습니다. 예를들어 수학과 관련된 기능은 Math라는 이름의 클래스에 담겨 있습니다. Math 라는 이름의 클래스가 이 세상에 단 하나만 있어야 한다면 안되겠죠? 이름의 충돌을 막고, 서로 연된된 클래스들을 정리 정돈하기 위해서 만들어진 것이 패키지입니다. 
 
 ## 혁명의 끝 혁신의 시작
 지금까지 배운 것이 혁명적인 것이고, 혁명적인 것은 그것만으로도 할 수 있는 것이 정말 많으면서, 앞으로 나오게 될 혁신적인 것들은 결국 혁명적인 것을 보완하기 위한 것이라는 점을 생각해봅니다. 
@@ -225,7 +210,7 @@ public static void main(String[] args) {}
 
 [문법 : 메소드가 없다면 어떤 어려움이 생기는가? : withoutMethodApp.java](src/withoutMethodApp.java)  
 
-[문법 : 메소드가 있다면 무엇이 좋은가? : withMethodApp.java](src/withMethodApp.java) |  [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FwithMethodApp.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FwithoutMethodApp.java)
+[문법 : 메소드가 있다면 무엇이 좋은가? : withMethodApp.java](src/withMethodApp.java) | [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FwithMethodApp.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FwithoutMethodApp.java)
 
 ## 입력과 출력 
 
@@ -233,7 +218,7 @@ public static void main(String[] args) {}
 
 <img src="keynote/keynote.018.jpeg" width="100%">
 
-[프로젝트 : 메소드를 도입 : AccountAddMethod.java](src/AccountAddMethod.java)
+[프로젝트 : 메소드를 도입 : AccountAddMethod.java](src/AccountAddMethod.java) | [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddMethod.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddMethod.java)
 
 # 객체지향 프로그래밍
 Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로그램을 만들어 가는 것을 의미합니다. 객체지향 프로그래밍을 이해하는 열쇠는 객체를 이매하는 것입니다. 객체를 한마디로 정의하기는 어렵지만 이렇게 이야기 할 수 있을 것 같습니다.   
@@ -247,7 +232,7 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 
 [문법 : ClassApp.java](src/ClassApp.java) | [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddClass.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddMethod.java)
 
-[프로젝트 : 클래스를 도입해봅시다. : AccountAddClass.java](src/AccountAddClass.java)
+[프로젝트 : 클래스를 도입해봅시다. : AccountAddClass.java](src/AccountAddClass.java) | [비교](https://egoing.github.io/remote-diff/?left=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddClass.java&right=https%3A%2F%2Fraw.githubusercontent.com%2Fegoingsb%2Fjava-lesson-example%2Fmaster%2Fsrc%2FAccountAddMethod.java)
 
 ## 파일 쪼개기
 
