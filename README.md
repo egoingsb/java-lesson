@@ -29,6 +29,9 @@ Hello World를 화면에 출력해봅니다.
 
 [동영상](https://opentutorials.org/course/3930/26655)
 
+### 웹애플리케이션
+
+[코드](https://gist.github.com/egoing/0a919424cc49a457bc195ad3a06e5a9e)
 
 ### 안드로이드 
 
@@ -191,6 +194,12 @@ Boolean 데이터 타입은 true, false 로 이루어진 미니 데이터 타입
 [문법 : ArrayApp.java](src/ArrayApp.java)
 
 배열은 배열 자체로 쓰이기 보다는 반복문과 함께 사용되는 경우가 많습니다. 
+
+## ArrayList
+
+배열은 가볍고 빠르고 엄격하다는 장점이 있습니다만 기능이 빈약하고 융통성이 없다는 단점도 있습니다. 이를 보안해주는 도구가 ArrayList입니다. 
+
+[문법 : ArrayListApp.java](src/ArrayListApp.java)
 
 ## 반복문
 반복적인 작업을 처리하는 기능입니다. 블리언과 비교연산자가 기반이 되고, 배열, 콜렉션 프래임워크와 단짝으로 사용됩니다. 
