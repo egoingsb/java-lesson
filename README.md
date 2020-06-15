@@ -42,6 +42,8 @@ Hello World를 화면에 출력해봅니다.
 핵심 계산식을 만들어봅니다.  
 이것에 여러가지 기능을 붙여가면서 고도로 복잡한 앱이 만들어지는 과정을 살펴볼 것입니다.  
 
+<img src="keynote/keynote.016.jpeg" width="100%">  
+
 [프로젝트 : Account.java](src/Account.java)
 
 ## 데이터 타입 (숫자 & 문자열)
