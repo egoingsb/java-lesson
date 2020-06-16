@@ -1,3 +1,9 @@
+package org.otu.account.instance;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
 class Person{
 	public String name;
 	public int id;
@@ -6,6 +12,27 @@ class Person{
 		return "id:"+id+",name:,profit";
 	}
 }
+
+class Print{
+	public static void file(String output) {
+		String directory = System.getProperty("user.home");
+		String fileName = "journal.txt";
+		String absolutePath = directory + File.separator + "temp" +File.separator + "data" +File.separator + fileName;
+		
+		try(FileWriter fileWriter = new FileWriter(absolutePath, true)) {
+		    String fileContent = output;
+		    fileWriter.write(fileContent);
+		    fileWriter.close();
+		} catch (IOException e) {
+		    // Cxception handling
+		}
+	}
+
+	public static void screen(String output) {
+		System.out.println(output);
+	}
+}
+
 class Accounting{
 	public double total;
 	public Person[] profitRate;
@@ -74,7 +101,4 @@ public class AccountAddInstance {
 		Print.screen(output);
 		Print.file(output);
 	}
-
-	
-
 }
