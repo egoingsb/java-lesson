@@ -13,26 +13,15 @@ class Person2 {
 	}
 }
 
-public class AccountAddConstructor {
-
-	public static void main(String[] args) {
-		
-		Person2 p1 = new Person2(1, "Michael", 0.5);
-		Person2 p2 = new Person2(2, "Calvin", 0.3);
-		Person2 p3 = new Person2(3, "Robin", 0.2);
-		 
-		Person2[] profitRate = {p1, p2, p3};
-		double total = Double.parseDouble(args[0]);  
-		double VATrate = get_vat_rate(total);
-		double VAT = get_vat(total, VATrate);
-		double income = get_income(total, VAT);
-		String output = makeOutput(profitRate, total, VAT, income);
-		Print.screen(output);
-		Print.file(output);
-
+class Accounting2{
+	public double total;
+	public Person2[] profitRate;
+	Accounting2(double total, Person2[] profitRate){
+		this.total = total;
+		this.profitRate = profitRate;
 	}
-
-	public static double get_vat_rate(double total) {
+	
+	public double get_vat_rate() {
 		double VATrate;
 		if(total > 10000) {
 			VATrate = 0.1;
@@ -44,15 +33,15 @@ public class AccountAddConstructor {
 
 	
 
-	public static String makeOutput(Person2[] profitRate, double total, double VAT, double income) {
+	public String makeOutput() {
 		String output = "";
 		output += "매출 : "+total+"\n";
-		output += "부가가치세 : "+VAT+"\n";
-		output += "총이익 : "+income +"\n";
+		output += "부가가치세 : "+get_vat()+"\n";
+		output += "총이익 : "+get_income() +"\n";
 		
 		int i=0;
 		while(i<profitRate.length) {
-			output += profitRate[i].getInfo()+" => " + profitRate[i].profitRate * income + "\n";
+			output += profitRate[i].getInfo()+"의 이익 : " + profitRate[i].profitRate * get_income() + "\n";
 			i++; // i = i + 1과 같습니다. 
 		}
 		
@@ -60,12 +49,29 @@ public class AccountAddConstructor {
 		return output;
 	}
 
-	public static double get_income(double total, double VAT) {
-		return total - VAT;
+	public double get_income() {
+		return total - get_vat();
 	}
 
-	public static double get_vat(double total, double VATrate) {
-		return total*VATrate;
+	public double get_vat() {
+		return total*get_vat_rate();
 	}
+}
+
+public class AccountAddConstructor {
+
+	public static void main(String[] args) {
+		
+		Person2 p1 = new Person2(1, "Michael", 0.5);
+		Person2 p2 = new Person2(2, "Calvin", 0.3);
+		Person2 p3 = new Person2(3, "Robin", 0.2);
+		Person2[] profitRate = {p1, p2, p3};
+		Accounting2 acc = new Accounting2(Double.parseDouble(args[0]), profitRate);
+		String output = acc.makeOutput();
+		Print.screen(output);
+		Print.file(output);
+	}
+
+	
 
 }
