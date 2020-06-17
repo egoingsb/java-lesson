@@ -72,7 +72,7 @@ class G {
 	}
 }
 
-public class UncheckedExceptionApp {
+public class ExceptionApp {
 
 	public static void main(String[] args) {
 		int index = 2;
