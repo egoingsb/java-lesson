@@ -324,3 +324,21 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 자바는 swing라는 GUI 라이브러리를 가지고 있습니다. [AccountAddConstructor.java](src/org/otu/account/constructor/AccountAddConstructor.java)를 기반으로 GUI 앱을 만들어봅시다. 완성된 결과는 [AccountGUI.java](src/org/otu/account/constructor/AccountGUI.java)에 있습니다만, 스스로 코드 작성에 도전해보면 어떨까요? 의식의 흐름에 따라서 준비한 연습장입니다. [AccountGUI.java](src/org/otu/account/constructor/AccountGUIPlayground.java)
 
 <img src="keynote/swing.gif">
+
+### Web application 제작
+
+# 사용법
+
+자바 기술을 이용하면 정적인 웹페이지를 프로그래밍적으로, 동적으로 만들어내는 웹애플리케이션을 구현할 수 있습니다. 이때 사용되는 기술 중의 하나가 서블릿입니다. 서블릿이 동작하게 하는 플랫폼이 서블릿 콘테이너 입니다. 그 중에 하나가 Tomcat입니다. embeded Tomcat 위에서 동작하는 servlet을 제작해서 사용자의 요청에 따라서 회계정보를 생성하고, 출력하는 웹애플리케이션을 만들어봅시다. 
+
+1. Tomcat 8 embed 버전을 다운로드 받습니다. <br>
+https://tomcat.apache.org/download-80.cgi <br>
+예)apache-tomcat-8.5.47-src.zip
+2. 압축을 해제합니다. 
+3. jar 파일을 라이브러리로 등록합니다. 
+4. [AccountWebApp.java](src/org/otu/account/constructor/AccountWebApp.java) 파일을 실행합니다. 
+5. http://localhost:8011/accounting으로 접속합니다. 
+
+직접 웹애플리케이션 구현해보면 어떨까요? [AccountWebAppPlayground.java](src/org/otu/account/constructor/AccountWebAppPlayground.java) 을 보시면 서블릿의 기본 코드를 준비해두었습니다. 회계시스템을 구현하기 위해서 필요한 비즈니스 로직을 채워넣어보세요.  
+
+<img src="keynote/webapp.gif">
