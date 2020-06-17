@@ -329,9 +329,9 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 
 ### GUI 데스트탑 애플리케이션 제작
 
-자바는 swing라는 GUI 라이브러리를 가지고 있습니다. [AccountAddConstructor.java](src/org/otu/account/constructor/AccountAddConstructor.java)를 기반으로 GUI 앱을 만들어봅시다. 완성된 결과는 [AccountGUI.java](src/org/otu/account/constructor/AccountGUI.java)에 있습니다만, 스스로 코드 작성에 도전해보면 어떨까요? 의식의 흐름에 따라서 준비한 연습장입니다. [AccountGUI.java](src/org/otu/account/constructor/AccountGUIPlayground.java)
+자바는 swing라는 GUI 라이브러리를 가지고 있습니다. [AccountAddConstructor.java](src/org/otu/account/constructor/AccountAddConstructor.java)를 기반으로 GUI 앱을 만들어봅시다. 완성된 결과는 [AccountGUI.java](src/org/otu/account/project/AccountGUI.java)에 있습니다만, 스스로 코드 작성에 도전해보면 어떨까요? 의식의 흐름에 따라서 준비한 연습장입니다. [AccountGUIPlayground.java](src/org/otu/account/project/AccountGUIPlayground.java)
 
-<img src="keynote/gui.gif">
+<img src="image/gui.gif">
 
 ### Web application 제작
 
@@ -344,9 +344,9 @@ https://tomcat.apache.org/download-80.cgi <br>
 예)apache-tomcat-8.5.47-src.zip
 2. 압축을 해제합니다. 
 3. jar 파일을 라이브러리로 등록합니다. 
-4. [AccountWebApp.java](src/org/otu/account/constructor/AccountWebApp.java) 파일을 실행합니다. 
+4. [AccountWebApp.java](src/org/otu/account/project/AccountWebApp.java) 파일을 실행합니다. 
 5. http://localhost:8011/accounting으로 접속합니다. 
 
-직접 웹애플리케이션 구현해보면 어떨까요? [AccountWebAppPlayground.java](src/org/otu/account/constructor/AccountWebAppPlayground.java) 을 보시면 서블릿의 기본 코드를 준비해두었습니다. 회계시스템을 구현하기 위해서 필요한 비즈니스 로직을 채워넣어보세요.  
+직접 웹애플리케이션 구현해보면 어떨까요? [AccountWebAppPlayground.java](src/org/otu/account/project/AccountWebAppPlayground.java) 을 보시면 서블릿의 기본 코드를 준비해두었습니다. 회계시스템을 구현하기 위해서 필요한 비즈니스 로직을 채워넣어보세요.  
 
-<img src="keynote/webapp.gif">
+<img src="image/web.gif">
