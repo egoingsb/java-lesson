@@ -6,7 +6,7 @@ public class DataTypeStringNumber {
 		System.out.println(1);
 		System.out.println(1.1);
 		System.out.println(1+1); // 사칙연산	
-		System.out.println(Math.floor(1.1)); // 보다 복잡한 연산의 사례
+		System.out.println(java.lang.Math.floor(1.1)); // 보다 복잡한 연산의 사례
 		
 		System.out.println("a"); // String
 		System.out.println('b'); // Character  

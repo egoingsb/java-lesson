@@ -15,7 +15,7 @@ public class MethodInputOutput {
 	public static void main(String[] args) {
 	
 		// 1. Math.floor이라는 메소드는 1.1이라는 값을 입력 받아서 이를 처리한 후에 1.0이라는 값을 출력하고 있습니다. 
-		System.out.println(Math.floor(1.1));
+		System.out.println(java.lang.Math.floor(1.1));
 		
 		// 2. 우리는 부가세를 계산해주는 메소드를 만들어봅시다. 이런 모습이면 좋겠군요. 
 		System.out.println(get_vat(100000.0)); // 10000.0

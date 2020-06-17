@@ -23,9 +23,9 @@ class Print{
 	public static void file(String output) {
 		String directory = System.getProperty("user.home");
 		String fileName = "journal.txt";
-		String absolutePath = directory + File.separator + "temp" +File.separator + "data" +File.separator + fileName;
+//		String absolutePath = directory + File.separator + "temp" +File.separator + "data" +File.separator + fileName;
 		
-		try(FileWriter fileWriter = new FileWriter(absolutePath, true)) {
+		try(FileWriter fileWriter = new FileWriter(fileName, true)) {
 		    String fileContent = output;
 		    fileWriter.write(fileContent);
 		    fileWriter.close();
