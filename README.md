@@ -323,7 +323,7 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 
 자바는 swing라는 GUI 라이브러리를 가지고 있습니다. [AccountAddConstructor.java](src/org/otu/account/constructor/AccountAddConstructor.java)를 기반으로 GUI 앱을 만들어봅시다. 완성된 결과는 [AccountGUI.java](src/org/otu/account/constructor/AccountGUI.java)에 있습니다만, 스스로 코드 작성에 도전해보면 어떨까요? 의식의 흐름에 따라서 준비한 연습장입니다. [AccountGUI.java](src/org/otu/account/constructor/AccountGUIPlayground.java)
 
-<img src="keynote/swing.gif">
+<img src="keynote/gui.gif">
 
 ### Web application 제작
 
