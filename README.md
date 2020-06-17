@@ -305,9 +305,7 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 
 <img src="keynote/keynote.025.jpeg" width="100%">
 
-[문법 : checked exception](src/CheckedExceptionApp.java)
-
-[문법 : unchecked exception](src/UncheckedExceptionApp.java)
+[문법 : ExceptionApp.java](src/ExceptionApp.java)
 
 ## 인터페이스
 
