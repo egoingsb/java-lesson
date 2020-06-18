@@ -5,6 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Scanner;
 
 import javax.swing.BoxLayout;
@@ -49,12 +50,7 @@ public class AccountGUI {
 					Accounting acc = new Accounting(Double.parseDouble(money.getText()), profitRate);
 					String output = acc.makeOutput();
 					Print.file(output);
-					try {
-						result.setText(get_data());
-					} catch (FileNotFoundException e1) {
-						// TODO Auto-generated catch block
-						e1.printStackTrace();
-					}
+					result.setText(get_data());
 				}
 			});
 	        
@@ -63,11 +59,18 @@ public class AccountGUI {
 	        fr.setVisible(true);
 	    }
 
-	public static String get_data() throws FileNotFoundException {
+	public static String get_data() {
 		String data = "";
-		for(Scanner sc = new Scanner(new File("journal.txt")); sc.hasNext(); ) {
-		  String line = sc.nextLine();
-		  data+=line+"\n";
+		File f = new File("journal.txt");
+		try {
+			f.createNewFile();
+			for(Scanner sc = new Scanner(new File("journal.txt")); sc.hasNext(); ) {
+			  String line = sc.nextLine();
+			  data+=line+"\n";
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 		return data;
 	}
