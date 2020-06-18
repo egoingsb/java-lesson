@@ -297,7 +297,11 @@ Object Oriented Programming은 객체를 부품으로 해서 완제품인 프로
 
 ## 접근제어
 소프트웨어가 복잡하고 심각해질수록 작은 실수도 큰 사고로 이어질 수 있는 확률이 높아집니다. 이 때부터는 많은 규제들이 필요해집니다. 그 중에 하나가 접근 제어입니다. 접근제어란 클래스, 메소드, 변수에 대한 불필요한 엑세스 권한을 주지 않는 것입니다. 
+
 <img src="keynote/keynote.023.jpeg" width="100%">
+
+접근제어와 관련된 여러가지 실험을 해봅시다. [MeApp.java](src/org/otu/access/here/MeApp.java)
+
 
 ## 예외
 
