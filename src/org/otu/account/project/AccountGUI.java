@@ -64,10 +64,12 @@ public class AccountGUI {
 		File f = new File("journal.txt");
 		try {
 			f.createNewFile();
-			for(Scanner sc = new Scanner(new File("journal.txt")); sc.hasNext(); ) {
+			Scanner sc = new Scanner(f);
+			for(; sc.hasNext(); ) {
 			  String line = sc.nextLine();
 			  data+=line+"\n";
 			}
+			sc.close();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
