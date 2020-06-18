@@ -354,3 +354,5 @@ https://tomcat.apache.org/download-80.cgi <br>
 직접 웹애플리케이션 구현해보면 어떨까요? [AccountWebAppPlayground.java](src/org/otu/account/project/AccountWebAppPlayground.java) 을 보시면 서블릿의 기본 코드를 준비해두었습니다. 회계시스템을 구현하기 위해서 필요한 비즈니스 로직을 채워넣어보세요.  
 
 <img src="image/web.gif">
+
+<img src="keynote/keynote.024.jpeg">
